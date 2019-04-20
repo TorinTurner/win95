@@ -8,6 +8,6 @@ WIN95.templates = {
 
 	taskBarItem: '<div class="taskBarItem" data-taskBarItem="{{ID}}" data-status="normal">' + '<img src="img/icons/{{image}}.ico" alt="" />' + '<span>{{title}}</span>' + '</div>',
 
-	dialogBox: '<div class="window dialogBox" data-window="{{ID}}" data-status="selected">' + '<div class="windowTitleBar">' + '<span>{{title}}</span>' + '<div class="windowTitleBarButtons">' + '<div class="windowTitleBarClose" data-status="disabled"></div>' + '</div>' + '</div>' + '<div class="dialogBoxContents">' + '<img src="img/icons/{{image}}.ico" alt="" />' + '<span>{{text}}</span>' + '</div>' + '<div class="dialogBoxButtons"></div>' + '</div>',
+	dialogBox: '<div class="window dialogBox" data-window="{{ID}}" data-status="selected">' + '<div class="windowTitleBar">' + '<span>{{title}}</span>' + '<div class="windowTitleBarButtons">' + '<div class="windowTitleBarClose" data-status="enabled"></div>' + '</div>' + '</div>' + '<div class="dialogBoxContents">' + '<img src="img/icons/{{image}}.ico" alt="" />' + '<span>{{text}}</span>' + '</div>' + '<div class="dialogBoxButtons"></div>' + '</div>',
 
 }

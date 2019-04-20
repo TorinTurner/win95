@@ -30,6 +30,14 @@ $(function () {
 		text: 'Recycle Bin',
 		rename: false
 	}).render('#desktopIcons')
+    
+    	WIN95.desktopIcons.okay = new WIN95.icon()
+	WIN95.desktopIcons.okay.set({
+		ID: 'okay',
+		image: 'systray_200',
+		text: 'DANGER',
+		rename: false
+	}).render('#desktopIcons')
 
 	/*
 	 * Explorer icons

@@ -75,5 +75,10 @@ WIN95.dialogBox.prototype = {
 		}
 		this.postRender(element)
 	},
-	postRender: function (element) {}
+	postRender: function (element) {
+        
+        $(element).find('.windowTitleBarClose').click(function() {
+			$(element).remove()
+		})
+    }
 }
